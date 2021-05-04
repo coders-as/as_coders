@@ -1,5 +1,3 @@
-
-
 import copy
 
 def rotate(m):
@@ -11,11 +9,10 @@ def rotate(m):
     return box
 
 
-N = len(lock)
-M = len(key)
 
 
-def check_lock(lock_x, lock_y, lock, key):
+
+def check_lock(N,M,lock_x, lock_y, lock, key):
     lock_tmp = copy.deepcopy(lock)
     for key_y in range(N):
         for key_x in range(N):
@@ -29,16 +26,14 @@ def check_lock(lock_x, lock_y, lock, key):
         return False
 
 def solution(key, lock):
-
-    rot = 0
+    N = len(lock)
+    M = len(key)
     answer = False
     for rot in range(4):
         key = rotate(key)
-        lock_y=0
-        lock_x=0
         for lock_y in range(0-M, M+1):
             for lock_x in range(0-M, M+1):
-                answer = check_lock(lock_x,lock_y,lock,key)
+                answer = check_lock(N,M,lock_x,lock_y,lock,key)
                 if answer == True:
                     return answer
 
