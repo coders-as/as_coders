@@ -11,6 +11,7 @@ $ git status
     1. 최초 작업시 - clone
     ~~~
     $ git clone https://github.com/coders-as/as_coders
+    cd as_coders
     $ git remote -v 실행시 원격저장소명 origin 확인
     ~~~
     2. 기존 연결된 저장소가 있을 때 - pull
