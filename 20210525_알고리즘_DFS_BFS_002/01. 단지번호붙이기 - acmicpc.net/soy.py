@@ -2,7 +2,7 @@ import numpy
 import copy
 input = [7,"0110100","0110101","1110101","0000111","0100000","0111110","0111000"]
 
-
+  
 main = []
 for i in input[1:]:
     i = list(i)
@@ -11,7 +11,7 @@ for i in input[1:]:
 max_length = input[0]
 
 
-summary=[] 
+summary=[]
 
 def fn_check(k):
     z1 = copy.deepcopy(k)
