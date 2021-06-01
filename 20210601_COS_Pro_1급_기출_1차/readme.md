@@ -8,3 +8,4 @@
 4,5,6  | 문제 풀기 |```solution()``` 함수 작성하기 (주석 필수!!)
 8,9,10 | 한줄 변경하기 | 제공된 ```initial_code.py``` 파일에서 한줄만 수정하고 해당부분 주석으로 설명하기
 
+출처 : https://www.ybmit.com/cos_pro/cos_pro_r_test.jsp
