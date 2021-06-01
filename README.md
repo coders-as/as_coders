@@ -9,16 +9,17 @@ $ git status
 1. 원격저장소 연결
 
     1. 최초 작업시 - clone
-    ~~~
-    $ git clone https://github.com/coders-as/as_coders
-    $ git remote -v 실행시 원격저장소명 origin 확인
-    ~~~
+    ```python
+    $ git clone https://github.com/coders-as/as_coders.git
+    $ git remote -v #실행시 원격저장소명 origin 확인
+    ```
     2. 기존 연결된 저장소가 있을 때 - pull
-    ~~~
+    ```python
+    $ git checkout main
     $ git pull
-    ~~~
+    ```
 
-2. branch 생성
+2. branch 생성 및 작업위치 변경
 ~~~
 $ git branch [branch_name]
 $ git checkout [branch name]
