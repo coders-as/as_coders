@@ -238,7 +238,9 @@ n-소용돌이 수의 대각선상에 존재하는 수들의 합을 return 해�
 
 #####예시 설명
 나이트가 A7 위치에 있으면 아래 그림과 같이 왼쪽으로는 이동하지 못하고, 오른쪽으로는 맨 위를 제외한 나머지 세 칸으로 이동 가능합니다. 
+
 ![image](https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/challengeable-imgs/20180315_knight3.png)
+
 따라서, 3을 return 하면 됩니다.
 
 
