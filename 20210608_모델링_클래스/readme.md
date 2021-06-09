@@ -6,7 +6,7 @@
 
 ![image](https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/challengeable-imgs/book2_python.png)
 
-![rotation.png](https://grepp-programmers.s3.amazonaws.com/files/ybm/50aabfa035/b041b68c-8e36-4f50-9b3f-2e097cd872a3.png)
+![shop1_cpp.png](https://grepp-programmers.s3.amazonaws.com/files/ybm/99be08777d/c0d50c3c-f5c0-4932-a63e-80aab959d75d.png)
 
 ![unit_cpp.png](https://grepp-programmers.s3.amazonaws.com/files/ybm/24405fa391/86dc4e66-a77f-4a8d-917d-7579ec9b9700.png)
 
