@@ -157,12 +157,19 @@ expression을 계산한 결과를 return 해주세요.
 
 # 문제5
 다음과 같이 n x n 크기의 격자에 1부터 n x n까지의 수가 하나씩 있습니다.
+
 ![image](http://res.cloudinary.com/sgc109/image/upload/c_scale,w_300/v1517462270/%EA%B7%B8%EB%A6%BC1_qysbr6.png)
+
 이때 수가 다음과 같은 순서로 배치되어있다면 이것을 n-소용돌이 수라고 부릅니다.
+
 ![image](http://res.cloudinary.com/sgc109/image/upload/c_scale,w_300/v1517462270/%EA%B7%B8%EB%A6%BC2_ol8snc.png)
+
 소용돌이 수에서 1행 1열부터 n 행 n 열까지 대각선상에 존재하는 수들의 합을 구해야 합니다.
+
 ![image](http://res.cloudinary.com/sgc109/image/upload/c_scale,w_300/v1517462270/%EA%B7%B8%EB%A6%BC3_cbcdg3.png)
+
 위의 예에서 대각선상에 존재하는 수의 합은 15입니다.
+
 격자의 크기 n이 주어질 때 n-소용돌이 수의 대각선상에 존재하는 수들의 합을 return 하도록 solution 함수를 완성해주세요.
 
 ---
@@ -231,7 +238,9 @@ n-소용돌이 수의 대각선상에 존재하는 수들의 합을 return 해�
 
 #####예시 설명
 나이트가 A7 위치에 있으면 아래 그림과 같이 왼쪽으로는 이동하지 못하고, 오른쪽으로는 맨 위를 제외한 나머지 세 칸으로 이동 가능합니다. 
+
 ![image](https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/challengeable-imgs/20180315_knight3.png)
+
 따라서, 3을 return 하면 됩니다.
 
 

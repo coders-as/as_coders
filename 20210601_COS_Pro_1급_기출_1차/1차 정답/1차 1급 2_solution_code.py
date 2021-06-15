@@ -10,7 +10,7 @@ def solution(binaryA, binaryB):
     if max_length > len(binaryA):
         binaryA = func_a(binaryA, max_length)
     if max_length > len(binaryB):
-        binaryB = fucn_a(binaryB, max_length)
+        binaryB = func_a(binaryB, max_length)
     
     hamming_distance = 0
     for i in range(max_length):
